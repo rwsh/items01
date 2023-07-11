@@ -1,0 +1,12 @@
+body {
+    font-family:  monospace;
+    font-size: large;
+}
+
+div.label {
+    text-align: right;
+}
+
+div.c {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список вещей</title>
+    <meta charset="utf-8" />
+    <link href="../styles.css" rel="stylesheet" type="text/css">        
+</head>
+<body>
+<hr>
+<a href="/">Главная</a>|<a href="/about/">О приложении</a>|<a href="/items/">Список вещей</a>
+<hr>
+
+<a href="/items/add">Добавить вещь</a>
+<br><br>     
+
+     <table border="1" width="100%">
+         <tr><th>Название</th><th>Стоимость</th></tr>
+         {{#each items}}
+            <tr><td>{{this.name}}</td><td>{{this.cost}}</td></tr>
+         {{/each}}
+     </table>
+
+</body>
+<html>
