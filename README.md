@@ -21,3 +21,7 @@ npm install hbs --save
 **Запуск приложения:**
 
 node index.js
+
+**Презенетация:**
+
+https://github.com/rwsh/items01/blob/main/shamin_nodejs.pdf
